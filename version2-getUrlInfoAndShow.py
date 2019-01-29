@@ -5,22 +5,16 @@ from wsgiref.simple_server import make_server
 
 
 def application(environ, start_response):
-    # 1.处理request
-    query_string = environ['QUERY_STRING']  # 这里是 "name=lucy"
-    name = query_string.split("=")[1]  # 从查询字符串 "name=lucy" 里获取 "lucy"
-
-    # 2.定义response信息
+# print(environ)
     status = '200 OK'
     headers = [('Content-Type', 'text/html; charset=utf8')]
 
-    # 3.调用start_response方法，生成response
+    query_string = environ['QUERY_STRING']    # 这里是 "name=John"
+    name = query_string.split("=")[1]    # 从查询字符串 "name=John" 里获取 "John"
     start_response(status, headers)
-
-    # 4.返回body
-    return [b"<h1>Hello, {}!</h1>".format(name)]
+    return ["<h1>Hello, {}!</h1>".format(name).encode('utf-8')] #需要是一个可迭代对象，里面的元素需要是byte类型，所以encode成utf-8，返回是一个list
 
 
-# 5.启动server
 if __name__ == '__main__':
     httpd = make_server('127.0.0.1', 9000, application)
     httpd.serve_forever()

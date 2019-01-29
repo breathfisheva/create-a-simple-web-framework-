@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d104fa0f-f09d-4640-956b-252e5868a387" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/version1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/version2-getUrlInfoAndShow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version2-getUrlInfoAndShow.py" beforeDir="false" afterPath="$PROJECT_DIR$/version2-getUrlInfoAndShow.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,34 +25,7 @@
         <entry file="file://$PROJECT_DIR$/version2-getUrlInfoAndShow.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/wsgiref/handlers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="140" selection-start-line="140" selection-end-line="140" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/wsgiref/simple_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="139" selection-start-line="139" selection-end-line="139" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/socketserver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="233" column="54" lean-forward="true" selection-start-line="233" selection-start-column="54" selection-end-line="233" selection-end-column="54" />
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -189,14 +160,14 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3295325" />
+      <window_info anchor="bottom" id="Python Console" weight="0.3295325" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3295325" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295325" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3990878" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295325" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -215,8 +186,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/version2-getUrlInfoAndShow.py</url>
-          <line>9</line>
+          <line>8</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/version2-getUrlInfoAndShow.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -253,7 +229,7 @@
     <entry file="file://$PROJECT_DIR$/version2-getUrlInfoAndShow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
+#http://127.0.0.1:9000/?name=lucy， 输出为hello lucy
+
 from wsgiref.simple_server import make_server
 
 

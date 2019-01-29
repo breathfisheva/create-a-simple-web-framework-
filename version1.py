@@ -1,3 +1,5 @@
+#visit url http://127.0.0.1:9000/ can see Hello world
+
 from wsgiref.simple_server import make_server
 
 def application(environ, start_response):
@@ -12,4 +14,3 @@ if __name__ == '__main__':
     httpd.serve_forever()
 
 
-#visit url http://127.0.0.1:9000/ can see Hello world

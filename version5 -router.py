@@ -1,5 +1,6 @@
 '''
-add routers using decorator
+add routers ：使用装饰器增加url和对应的处理函数的映射
+
 input http://127.0.0.1:9000/goodbye/lucy/ will show goodbye lucy
 input http://127.0.0.1:9000/hello/lucy/ will show hello lucy
 '''

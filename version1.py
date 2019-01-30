@@ -1,4 +1,7 @@
-#visit url http://127.0.0.1:9000/ can see Hello world
+'''
+基本的wsgi作为server的例子
+visit url http://127.0.0.1:9000/ can see Hello world
+'''
 
 from wsgiref.simple_server import make_server
 
